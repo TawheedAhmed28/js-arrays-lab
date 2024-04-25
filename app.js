@@ -318,4 +318,12 @@ let totalSum = 0
 
 const total = totalSum / (totalNumSum.length)
 
-console.log('Exercise 15 result:\n', total);
+// * Simpler way possible:
+/* let total = 0 
+numArrays.forEach((numArray) => {
+   numArray.forEach((num) => {
+      total = total + num
+   })
+}) */
+
+console.log('Exercise 15 result:', total);
